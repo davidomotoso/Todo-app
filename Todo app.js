@@ -1,6 +1,6 @@
 // Welcoming the user to the app
 const welcomeUser=()=>{
-    welcome=document.getElementById('userName')
+    let welcome=document.getElementById('userName')
     let userName=welcome.value; //Getting the user name
     let user=document.querySelector('.user'); // A welcome div
     let html='';
