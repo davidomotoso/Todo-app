@@ -20,14 +20,21 @@
                 <i class="fa fa-user-plus" aria-hidden="true" aria-label="plus sign" onclick="welcomeUser()"></i>
                 <div class="user"></div>
             </section>
-            <!-- Upload a profile picture -->
+            
+
             <div class="profile-pics">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/2048px-Default_pfp.svg.png" alt="Profile picture" id="picture">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/2048px-Default_pfp.svg.png" alt="Profile picture" id="picture" />
                 <div class="upload-photo">
-                    <input type="file" name="Profile file" id="file" value="Upload photo" aria-label="upload photo" accept="image/*">
-                    <input type="button" value="Upload" onclick="profilePicture()">
+                  <input
+                    type="file"
+                    name="Profile file"
+                    id="profile-pic"
+                    aria-label="upload photo"
+                    accept="image/*"
+                  />
                 </div>
             </div>
+
             <!-- Todo list -->
             <div class="todo-content">
                 <input id="user-data" type="text" placeholder="Input your data">
